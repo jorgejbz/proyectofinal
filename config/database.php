@@ -96,6 +96,8 @@ return [
             'search_path' => 'public',
             'sslmode' => 'prefer',
         ],
+
+        //conexion de mongo db
         'mongodb' => [
             'driver' => 'mongodb',
             'host' => env('DB_HOST', 'localhost'),
